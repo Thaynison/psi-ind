@@ -1,10 +1,12 @@
 {
-  "version": 2,
   "builds": [
-      { "src": "src/**/*.php", "use": "@vercel/php@7.4" }
+    { "src": "src/**/*.php", "use": "@vercel/build-php@1.0.0" }
   ],
   "routes": [
-    { "src": "src/.*", "dest": "index.php" },
-    { "src": "src/.*", "headers": { "cache-control": "s-maxage=31536000,immutable" } }
-  ]
+    { "src": "src/index.php", "dest": "/" }
+  ],
+  "env": {
+    "PHP_VERSION": "7.4",
+    "PHP_EXTENSIONS": "curl,gd,mbstring,pdo,pdo_mysql"
+  }
 }
