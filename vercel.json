@@ -8,3 +8,23 @@
     { "src": "/.*", "headers": { "cache-control": "s-maxage=31536000,immutable" } }
   ]
 }
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "src/index.php",
+      "use": "@vercel/php@7.4",
+      "config": {
+        "allow_url_fopen": true
+      }
+    }
+  ],
+  "routes": [
+    {
+      "handle": "filesystem",
+      "src": "/.*", "dest": "/index.php",
+      "src": "/.*", "headers": { "cache-control": "s-maxage=31536000,immutable",
+      "dest": "/$1"
+    }
+  ]
+}
