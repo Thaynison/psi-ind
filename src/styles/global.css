@@ -1,0 +1,149 @@
+.buttonsitens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sectiondados {
+    border: 1px;
+    width: 10cm;
+    height: 8cm;
+    display: flex;
+    font-family: sans-serif;
+    border-style: solid;
+    margin-top: 10px;
+}  
+
+.barra {
+    width: 3px;
+    height: 8cm;
+}
+
+.dados {
+    width: 5cm;
+    height: 8cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+}
+
+.dadosapp {
+    width: 4.9cm;
+    height: 8cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    margin-left: 3px;
+}
+
+.img {
+    width: 2cm;
+    height: 2cm;
+}
+
+.img img {
+    width: 2cm;
+    height: 2cm;
+}
+
+article {
+    font-size: 10px;
+}
+
+.bord {
+    margin-top: -2px;
+    width: 5cm;
+    height: 0.7cm;
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    margin-top: 4px;
+    width: 5cm;
+    height: 1.2cm;
+}
+
+.title h1 {
+    font-size: 8px;
+    text-align: center;
+}
+
+.assinatura {
+    width: 5cm;
+    height: 1cm;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.treinamentos {
+    width: 4.5cm;
+    height: 5.8cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.treinamentos article {
+    width: 4cm;
+    height: 11px;
+    font-size: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.assinatura h1 {
+    font-size: 7px;
+    text-align: center;
+}
+
+.trein {
+    display: flex;
+
+}
+
+.feito {
+    width: 0.5cm;
+    height: 5.8cm;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.feito article {
+    width: 10px;
+    height: 10px;
+    font-size: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.backgroud {
+    position: absolute;
+    width: 10cm;
+    height: 8cm;
+}
+
+.vizucenter {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-btn-col-sm-3 {
+    flex: 0 0 auto;
+    width: 5%;
+}
+
+
