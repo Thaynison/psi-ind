@@ -7,6 +7,6 @@
   ],
   "env": {
     "PHP_VERSION": "7.4",
-    "PHP_EXTENSIONS": "curl,gd,mbstring,pdo,pdo_mysql"
+    "PHP_EXTENSIONS": "curl,gd,mbstring,pdo,pdo_mysql,session"
   }
 }
