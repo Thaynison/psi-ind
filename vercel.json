@@ -1,12 +1,8 @@
 {
   "builds": [
-    { "src": "src/**/*.php", "use": "@vercel/build-php@1.0.0" }
+    { "src": "src/**/*.php", "use": "@vercel/php@7.4" }
   ],
   "routes": [
     { "src": "src/index.php", "dest": "/" }
   ],
-  "env": {
-    "PHP_VERSION": "7.4",
-    "PHP_EXTENSIONS": "curl,gd,mbstring,pdo,pdo_mysql,session"
-  }
 }
