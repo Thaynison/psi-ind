@@ -1,10 +1,9 @@
 {
-  "version": 2,
-  "builds": [
-    { "src": "src/**/*.php", "use": "@vercel/php@7.4" }
-  ],
-  "routes": [
-    { "src": "src/index.php", "dest": "/" }
-    { "src": "/.*", "headers": { "cache-control": "s-maxage=31536000,immutable" } }
-  ]
+    "version": 2,
+    "builds": [
+        { "src": "src/**/*.php", "use": "@vercel/build-php" }
+    ],
+    "routes": [
+        { "src": "/.*", "dest": "src/index.php" }
+    ]
 }
