@@ -12,19 +12,4 @@ if (!$conexao) {
     die('Não foi possível conectar ao banco de dados: ' . mysqli_connect_error());
 }
 
-if (isset($_SERVER['HTTP_HOST'])) {
-    $host = $_SERVER['HTTP_HOST'];
-
-    if (strpos($_SERVER['REQUEST_URI'], '.php') === false) {
-        // A URL não contém .php, redirecione para a versão com .php
-        $url = "https://$host$_SERVER[REQUEST_URI].php";
-        header("Location: $url", true, 301);
-        exit();
-    } elseif (preg_match('/^(.+)\.php/', $_SERVER['REQUEST_URI'], $matches)) {
-        // A URL contém .php, redirecione para a versão sem .php
-        $url = "https://$host$matches[1]";
-        header("Location: $url", true, 301);
-        exit();
-    }
-}
 ?>
