@@ -1,0 +1,113 @@
+.deck1 {
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deck1 img {
+    width: 50%;
+}
+
+.deck2 {
+    width: 100%;
+    height: 60%;
+    /* background-color: rgb(106, 255, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.deck2 .btn-bar {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.deck2 .btn-bar .fa-regular {
+    margin-right: 10px;
+}
+
+.deck2 .btn-bar:hover {
+    background-color: rgba(170, 170, 244, 0.4);
+    border-radius: 10px;
+    display: flex;
+}
+
+.deck3 {
+    width: 100%;
+    height: 20%;
+    /* background-color: rgb(106, 255, 0); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.deck3 .btn-bar {
+    width: 80%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.deck3 .btn-bar .fa-solid {
+    margin-right: 10px;
+}
+
+.deck3 .btn-bar:hover {
+    background-color: rgba(170, 170, 244, 0.4);
+    border-radius: 10px;
+    display: flex;
+}
+
+.deck5 {
+    width: 100%;
+    height: 85%;
+    /* background-color: rgb(106, 255, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deck5 .btn-bar {
+    width: 80%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.deck5 .btn-bar .fa-regular {
+    margin-right: 10px;
+}
+
+.deck5 .btn-bar:hover {
+    background-color: rgba(170, 170, 244, 0.4);
+    border-radius: 10px;
+    display: flex;
+}

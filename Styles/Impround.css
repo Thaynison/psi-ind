@@ -1,0 +1,304 @@
+.backgroundOptions::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    backdrop-filter: blur(10px); /* Apply the blur effect */
+    z-index: -1; /* Place the overlay behind the content */
+}
+
+.backgroundOptions {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: rgba(179, 178, 178, 0.8); /* Set a semi-transparent white background */
+    justify-content: center;
+}
+
+.backgroundOptions .GroundOptions {
+    background-color: rgba(255, 255, 255, 0.837);
+    width: 50%;
+    height: 70%;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 25%);
+    box-sizing: ;
+    box-shadow: 0px -6px 52px 8px rgba(0,0,0,0.73);
+}
+
+.backgroundOptions .GroundOptions .opts1 {
+    width: 100%;
+    height: 10%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.backgroundOptions .GroundOptions .opts1 .busca1 {
+    width: 44%;
+    height: 30px;
+    margin-right: 60px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.backgroundOptions .GroundOptions .opts1 .busca1 .input {
+    width: 140%;
+    height: 27px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.backgroundOptions .GroundOptions .opts1 .busca1 .fa-regular {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.backgroundOptions .GroundOptions .opts2 {
+    width: 100%;
+    height: 85%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+}
+
+.backgroundOptions .GroundOptions .opts2 h1 {
+    width: 100%;
+    height: 25%;
+    margin-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.backgroundOptions .GroundOptions .opts2 .textarea {
+    width: 100%;
+    height: 160%;
+    background-color: transparent;
+    border-color: transparent;
+}
+.backgroundOptions .GroundOptions .opts2 .input {
+    width: 13%;
+    height: 17%;
+    margin-left: 45%;
+    border-color: transparent;
+    background-color: rgba(179, 178, 178, 0.8); /* Set a semi-transparent white background */
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.backgroundOptions .GroundOptions .opts2 .input:hover {
+    background-color: greenyellow;
+    width: 13%;
+    height: 17%;
+}
+
+.backgroundOptions .GroundOptions .opts3 {
+    width: 100%;
+    height: 5%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.backgroundOptions .GroundOptions .opts1 h1 {
+    font-size: 15px;
+    width: 41%;
+    margin-left: 15px;
+}
+
+.backgroundOptions .GroundOptions .opts1 i {
+    font-size: 25px;
+    /* cursor: pointer; */
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 28px;
+}
+
+.backgroundOptions .GroundOptions .opts3 h1 {
+    font-size: 8px;
+}
+
+.backgroundOptions .GroundOptions form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.backgroundOptions .GroundOptions .form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.backgroundOptions .GroundOptions .opts2 .forms1 {
+    width: 50%;
+    height: 100%;
+    /* background: black; */
+}
+
+.backgroundOptions .GroundOptions .opts2 .forms1 .dadosform {
+    width: 100%;
+    height: 27%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backgroundOptions .GroundOptions .opts2 .forms1 .dadosform .inputdads {
+    width: 80%;
+    height: 20%;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: rgba(179, 178, 178, 0.8); /* Set a semi-transparent white background */
+}
+
+.backgroundOptions .GroundOptions .opts2 .forms2 {
+    width: 50%;
+    height: 100%;
+}
+
+.backgroundOptions .GroundOptions .opts2 .forms2 .dadosform {
+    width: 100%;
+    height: 25%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.backgroundOptions .GroundOptions .opts2 .forms2 .dadosform .inputdads {
+    width: 80%;
+    height: 20%;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: rgba(179, 178, 178, 0.8); /* Set a semi-transparent white background */
+}
+
+.backgroundOptions .GroundOptions .opts2 .forms2 .dadosform .btn-send {
+    width: 30%;
+    height: 24%;
+    border-color: transparent;
+    background-color: rgba(179, 178, 178, 0.8); /* Set a semi-transparent white background */
+    border-radius: 20px;
+    cursor: pointer;
+}
+.backgroundOptions .GroundOptions .opts2 .forms2 .dadosform .btn-send:hover {
+    background-color: greenyellow;
+    width: 32%;
+    height: 26%;
+}
+
+.backgroundOptions .GroundOptions .opts2 .add4 {
+    width: 100%;
+    height: 10%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom-color: #dfddde;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.backgroundOptions .GroundOptions .opts2 .components {
+    width: 20%;
+    height: 50%;
+    /* background-color: brown; */
+    font-size: 10px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.backgroundOptions .GroundOptions .opts2 .add5-container {
+    width: 100%;
+    /* background-color: blueviolet; */
+    /* max-height: 415px; */
+    height: 90%;
+    overflow-y: auto;
+}
+
+.backgroundOptions .GroundOptions .opts2 .add5-container .add5 {
+    width: 100%;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.backgroundOptions .GroundOptions .opts2 .add5-container .add5 .components {
+    width: 20%;
+    text-align: center;
+}
+
+.backgroundOptions .GroundOptions .opts2 .add5-container .add5 .componentsimg {
+    width: 25%;
+    text-align: center;
+}
+
+.backgroundOptions .GroundOptions .opts2 .add5-container h1 {
+    font-size: 10px;
+}
+
+.backgroundOptions .GroundOptions .opts2 .add5-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.backgroundOptions .GroundOptions .opts2 .add5-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border: none;
+}
+
+.backgroundOptions .GroundOptions .opts2 .add5-container::-webkit-scrollbar-track {
+    background-color: transparent;
+    border: none
+}
+
+
+
+.backgroundOptions .GroundOptions .opts2 #camera {
+    /* background-color: blue; */
+    width: 80%;
+    height: 20%;
+}
+
+.backgroundOptions .GroundOptions .opts2 video {
+    /* background-color: blue; */
+    width: 100%;
+    height: 162%;
+    margin-top: -7%;
+}
+
+
+.backgroundOptions .GroundOptions .opts2 canvas {
+    width: 10%;
+    height: 10%;
+}
+
+.backgroundOptions .GroundOptions .opts2 #resultado {
+    width: 80%;
+    height: 20%;
+    border-color: transparent;
+    border-radius: 10px;
+    background-color: rgba(179, 178, 178, 0.8); /* Set a semi-transparent white background */
+}

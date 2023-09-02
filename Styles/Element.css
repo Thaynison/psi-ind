@@ -1,0 +1,491 @@
+.element1 {
+    /* background-color: blue; */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.element1 .title {
+    width: 25%;
+}
+
+.element1 .title h1 {
+    font-family: SuzanoText-Bold;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.element1 .options {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.element1 .options .busca1 {
+    width: 28%;
+    height: 30px;
+    margin-right: 60px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.element1 .options .busca1 .input {
+    width: 95%;
+    height: 27px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.element1 .options .busca1 .fa-regular {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.element1 .options .busca2 {
+    width: 28%;
+    height: 30px;
+    margin-right: 60px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+.element2 {
+    width: 100%;
+    height: 90%;
+    /* background-color: blue; */
+    display: flex;
+}
+.element2 .fa-regular {
+    cursor: pointer;
+}
+
+.element2 .pag1 {
+    width: 60%;
+    height: 100%;
+    /* background-color: brown; */
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.element2 .pag1 .dados1 {
+    width: 100%;
+    height: 25%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.element2 .pag1 .dados1 .avanco {
+    width: 30%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.element2 .pag1 .dados1 .avanco .add {
+    width: 100%;
+    height: 33.3%;
+    /* background-color: azure; */
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.element2 .pag1 .dados1 .avanco .add .fa-regular {
+    margin-left: 60px;
+    margin-right: 60px;
+    cursor: pointer;
+}
+
+.element2 .pag1 .dados1 .avanco .add h1,
+.element2 .pag1 .dados1 .avanco .add h2 {
+    color: black    ;
+}
+
+.element2 .pag1 .dados1 .avanco .add h1 {
+    font-size: 15px;
+}
+
+.element2 .pag1 .dados1 .avanco .add h2 {
+    font-size: 15px;
+}
+
+.element2 .pag1 .dados2 {
+    width: 100%;
+    height: 40%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.element2 .pag1 .dados2 .avanco {
+    width: 95%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.element2 .pag1 .dados3 {
+    width: 100%;
+    height: 35%;
+    /* background-color: rgb(170, 0, 255); */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.element2 .pag1 .dados3 .avanco {
+    width: 95%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.527);
+    /* border-radius: 20px; */
+    border-top-left-radius: 20px;
+    display: flex;
+    border-top-right-radius: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.element2 .pag1 .dados3 .avanco .add1 {
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.element2 .pag1 .dados3 .avanco .add1 h1 {
+    margin-right: 65%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.element2 .pag1 .dados3 .avanco .add1 i {
+    cursor: pointer;
+}
+
+.element2 .pag1 .dados3 .avanco .add2 {
+    width: 100%;
+    height: 10%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom-color: #dfddde;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.element2 .pag1 .dados3 .avanco .add2 .components {
+    width: 20%;
+    height: 100%;
+    /* background-color: brown; */
+    font-size: 10px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.element2 .pag1 .dados3 .avanco .add3-container {
+    width: 100%;
+    /* background-color: blueviolet; */
+    /* max-height: 400px; */
+    height: 90%;
+    overflow-y: auto;
+}
+
+.element2 .pag1 .dados3 .avanco .add3-container .add3 {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.element2 .pag1 .dados3 .avanco .add3-container .add3 .components {
+    width: 25%;
+    text-align: center;
+    /* height: 100%; */
+}
+
+.element2 .pag1 .dados3 .avanco .add3-container h1 {
+    font-size: 10px;
+}
+
+.element2 .pag1 .dados3 .avanco .add3-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.element2 .pag1 .dados3 .avanco .add3-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border: none;
+}
+
+.element2 .pag1 .dados3 .avanco .add3-container::-webkit-scrollbar-track {
+    background-color: transparent;
+    border: none
+}
+
+.element2 .pag2 {
+    /* background-color: brown; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.element2 .pag2 .dados {
+    background-color: rgba(255, 255, 255, 0.527);
+    width: 90%;
+    height: 45%;
+    border-radius: 20px;
+}
+
+.element2 .pag2 .dados .avanco1 {
+    width: 100%;
+    height: 15%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.element2 .pag2 .dados .avanco1 h1 {
+    width: 50%;
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+.element2 .pag2 .dados .avanco1 i {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.element2 .pag2 .dados .avanco2 {
+    width: 100%;
+    height: 80%;
+}
+
+
+.element2 .pag2 .dados .avanco1 {
+    width: 100%;
+    height: 15%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.element2 .pag2 .dados .avanco1 h1 {
+    width: 50%;
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+.element2 .pag2 .dados .avanco1 i {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+.element2 .pag3 {
+    width: 60%;
+    height: 100%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: center;
+}
+
+.element2 .pag3 .docs {
+    width: 90%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.element2 .pag3 .docs .add4 {
+    width: 100%;
+    height: 10%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-bottom-color: #dfddde;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+.element2 .pag3 .docs .add4 .components {
+    width: 20%;
+    height: 100%;
+    /* background-color: brown; */
+    font-size: 10px;
+    font-weight: 200;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.element2 .pag3 .docs .add5-container {
+    width: 100%;
+    /* background-color: blueviolet; */
+    /* max-height: 415px; */
+    height: 90%;
+    overflow-y: auto;
+}
+
+.element2 .pag3 .docs .add5-container .add5 {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.element2 .pag3 .docs .add5-container .add5 .components {
+    width: 25%;
+    text-align: center;
+    /* height: 100%; */
+}
+
+.element2 .pag3 .docs .add5-container h1 {
+    font-size: 10px;
+}
+
+.element2 .pag3 .docs .add5-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.element2 .pag3 .docs .add5-container::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border: none;
+}
+
+.element2 .pag3 .docs .add5-container::-webkit-scrollbar-track {
+    background-color: transparent;
+    border: none
+}
+
+.element2 .pag4 {
+    /* background-color: brown; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.element2 .pag4 .docs {
+    width: 80%;
+    height: 45%;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 20px;
+    display: f;
+}
+
+.element2 .pag4 .docs .deck4 {
+    width: 100%;
+    height: 15%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.element2 .pag4 .docs .deck4 h1 {
+    width: 50%;
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+.element2 .pag4 .docs .deck4 i {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+#ViewSaldo {
+    display: none;
+}
+
+#ViewRestante {
+    display: none;
+}
+
+
+
+.element2 .pag6 {
+    /* background-color: brown; */
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.element2 .pag6 .docs {
+    width: 90%;
+    height: 45%;
+    background-color: rgba(255, 255, 255, 0.527);
+    border-radius: 20px;
+    display: f;
+}
+
+.element2 .pag6 .docs .deck4 {
+    width: 100%;
+    height: 15%;
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.element2 .pag6 .docs .deck4 h1 {
+    width: 50%;
+    font-size: 15px;
+    margin-left: 5%;
+}
+
+.element2 .pag6 .docs .deck4 i {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+
+
+

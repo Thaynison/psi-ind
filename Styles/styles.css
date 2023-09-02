@@ -1,0 +1,51 @@
+@font-face {
+    font-family: SuzanoText-Bold;
+    src: url(../fonts/SuzanoText-Bold.ttf);
+}
+@font-face {
+    font-family: SuzanoText-Regular;
+    src: url(../fonts/SuzanoText-Regular.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: SuzanoText-Regular;
+}
+
+body {
+    background: rgb(255,210,193);
+    background: linear-gradient(90deg, rgba(255,210,193,1) 0%, rgba(170,170,244,1) 50%, rgba(210,202,253,1) 100%);    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.hub {
+    width: 180vh;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.468);
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    border-radius: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.bar1 {
+    width: 20%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.47);
+    border-top-left-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+}
+
+.bar2 {
+    width: 80%;
+    height: 100%;
+    /* background-color: rgba(255, 0, 0, 0.69); */
+    border-top-right-radius: 5vh;
+    border-bottom-right-radius: 5vh;
+}
